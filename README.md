@@ -1,36 +1,5 @@
 # saver
 
-
-Tabela "Usuários":
-
-id (chave primária)
-nome
-email
-senha
-Tabela "Categorias":
-
-id (chave primária)
-nome
-Tabela "Gastos Fixos":
-
-id (chave primária)
-usuário_id (chave estrangeira referenciando a tabela "Usuários")
-descrição
-valor
-data
-dia_recorrencia (para gastos fixos recorrentes)
-período_recorrencia (para gastos fixos recorrentes)
-Tabela "Gastos Variáveis":
-
-id (chave primária)
-usuário_id (chave estrangeira referenciando a tabela "Usuários")
-categoria_id (chave estrangeira referenciando a tabela "Categorias")
-descrição
-valor
-data
-
-
-
 Autenticação de Usuário: Implemente um sistema de autenticação seguro para permitir que os usuários criem contas e façam login no aplicativo.
 
 Registro de Gastos Fixos e Variáveis: Permita que os usuários registrem seus gastos fixos e variáveis, incluindo informações como descrição, valor e data.
