@@ -7,5 +7,5 @@ app
     port: env.PORT,
   })
   .then(() => {
-    console.log('HTP Server Running')
+    console.log('HTPPS Server Running')
   })
